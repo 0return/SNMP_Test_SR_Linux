@@ -1,0 +1,9 @@
+name: Lab_SNMP
+topology:
+  kinds:
+    nokia_srlinux:
+      image: ghcr.io/nokia/srlinux:25.7
+  nodes:
+    leaf1:
+      kind: nokia_srlinux
+      type: ixr-d3
