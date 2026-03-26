@@ -7,3 +7,4 @@ topology:
     leaf1:
       kind: nokia_srlinux
       type: ixr-d3
+      mgmt-ipv4: 172.20.20.2
