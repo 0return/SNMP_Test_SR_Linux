@@ -19,4 +19,5 @@ snmpget -v2c -c Test 172.20.20.2 1.3.6.1.2.1.1.3.0
 #             Commands on the SR L
 # ********************************************************
 
+bash
 tcpdump -ni any udp port 161
